@@ -9,9 +9,11 @@
 }
 
 body {
-    background-image: url("../img/wallpaper-bg.jpg");
+    background-image: url("../img/wallpaper-bg.jpg") ;
     background-position: top center;
-    background-size: cover;
+    background-size:cover;
+
+    
 }
 
 button {
@@ -154,4 +156,13 @@ select{
     color: #fff;
     text-decoration: line-through;
     font-style: italic;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-image: url("../img/wallpaper-bg.jpg") ;
+        background-position: center;
+        background-size: auto;
+    
+}
 }
